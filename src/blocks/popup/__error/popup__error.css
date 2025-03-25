@@ -1,0 +1,7 @@
+.popup__error {
+    font-size: 12px;
+    color: red;
+    margin-top: 4px;
+    height: 12px; /* Чтобы сохранить место даже при отсутствии текста ошибки */
+    display: block;
+}

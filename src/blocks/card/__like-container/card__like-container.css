@@ -1,0 +1,7 @@
+.card__like-container {
+    display: flex;
+    flex-direction: column; /* Размещаем элементы по вертикали */
+    align-items: center; /* Центрируем кнопку и количество лайков */
+    justify-content: center; /* Добавлено для вертикального выравнивания */
+    height: 50px; /* Установим достаточную высоту для контейнера */
+}

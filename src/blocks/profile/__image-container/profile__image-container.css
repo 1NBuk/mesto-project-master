@@ -1,0 +1,8 @@
+.profile__image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile__image-container:hover{
+    display: flex;  /* Показываем оверлей при наведении */
+}

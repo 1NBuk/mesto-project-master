@@ -1,0 +1,9 @@
+.card__description {
+  display: flex;
+  justify-content: space-between; /* Убедимся, что элементы занимают всё пространство */
+  align-items: center;
+  width: 100%;
+  background: #fff;
+  padding: 25px 20px;
+  box-sizing: border-box; /* Убедимся, что padding не выходит за пределы */
+}
