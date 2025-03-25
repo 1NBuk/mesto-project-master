@@ -462,12 +462,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1NBuk/mesto-project.git"
+    "url": "git+https://github.com/1NBuk/mesto-project-master.git"
   },
   "author": "Nastya Buk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/1NBuk/mesto-project/issues"
+    "url": "https://github.com/1NBuk/mesto-project-master/issues"
   },
-  "homepage": "https://1NBuk.github.io/mesto-project/"
+  "homepage": "https://github.com/1NBuk/mesto-project-master#readme"
 }
