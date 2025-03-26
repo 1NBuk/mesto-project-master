@@ -4,6 +4,8 @@ import { openImagePopup } from './popup.js';
 
 // Функция удаления карточки
 export function deleteCard(cardId) {
+    if (!confirm("Вы уверены, что хотите удалить эту карточку?")) return; // Подтверждение удаления
+
     request(`/cards/${cardId}`, { method: 'DELETE' })
         .then(() => {
             const cardElement = document.querySelector(`[data-id="${cardId}"]`);
